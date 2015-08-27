@@ -6,7 +6,7 @@
 #    By: fkalb <fkalb@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/01/23 12:13:17 by fkalb             #+#    #+#              #
-#    Updated: 2015/08/26 13:45:47 by fkalb            ###   ########.fr        #
+#    Updated: 2015/08/27 11:46:59 by fkalb            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ SRC=ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c \
 	ft_strjoin.c ft_strsplit.c ft_strmap.c ft_strmapi.c ft_lstadd.c \
 	ft_lstadd_toend.c ft_lstdelone.c ft_lstiter.c ft_lstnew.c \
 	ft_strstartwith.c ft_strendwith.c ft_strjoin_free.c ft_strrepl.c \
-	ft_strnlen.c ft_strjoin_key.c ft_strtabdel.c \
+	ft_strnlen.c ft_strjoin_key.c ft_strtabdel.c ft_strclen.c \
 	ft_strssplit.c ft_lstdel.c ft_lstmap.c ft_lstprint.c ft_isspace.c
 
 .SILENT: all $(NAME) clean fclean compil

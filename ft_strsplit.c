@@ -6,7 +6,7 @@
 /*   By: fkalb <fkalb@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/01 21:23:12 by fkalb             #+#    #+#             */
-/*   Updated: 2015/08/26 15:02:31 by fkalb            ###   ########.fr       */
+/*   Updated: 2015/08/27 11:44:08 by fkalb            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,16 +34,6 @@ static size_t	ft_nbword(char const *s, char c)
 		i++;
 	}
 	return (j);
-}
-
-static size_t	ft_strclen(char const *s, char c)
-{
-	size_t		i;
-
-	i = 0;
-	while (s[i] && s[i] != c)
-		i++;
-	return (i);
 }
 
 char			**ft_strsplit(char const *s, char c)

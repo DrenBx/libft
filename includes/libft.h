@@ -6,7 +6,7 @@
 /*   By: fkalb <fkalb@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/01/23 12:07:52 by fkalb             #+#    #+#             */
-/*   Updated: 2015/08/26 13:46:55 by fkalb            ###   ########.fr       */
+/*   Updated: 2015/08/27 11:45:44 by fkalb            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ int					ft_isdigit(int c);
 int					ft_isprint(int c);
 int					ft_isspace(int c);
 size_t				ft_strlen(const char *s);
+size_t				ft_strclen(char const *s, char c);
 void				*ft_memalloc(size_t size);
 void				*ft_memccpy(void *s1, const void *s2, int c, size_t n);
 void				*ft_memchr(const void *s, int c, size_t n);
@@ -57,8 +58,10 @@ void				ft_putstr(char const *s);
 void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl(char const *s);
 void				ft_putendl_fd(char const *s, int fd);
+
 char				*ft_strnew(size_t size);
 void				ft_strdel(char **str);
+
 void				ft_strtabdel(char ***tab);
 void				ft_strclr(char *s);
 void				ft_striter(char *s, void (*f)(char *));
